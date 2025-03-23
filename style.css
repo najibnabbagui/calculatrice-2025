@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(55, 69, 83);
+
+}
+.calculator {
+    width: 370px;
+    margin: 20px auto;
+    /* border: 10px solid #0e0c0c; */
+    border-radius: 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+#screen {
+    width: 275%;
+    margin-bottom: 33px;
+    padding: 25px;
+    font-size: 104px;
+    text-align: center;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    
+    
+}
+
+button {
+    padding: 100px;
+    background-color: #b7afaf;
+    border: none;
+    cursor: pointer;
+    font-size: 104px;
+}
+
+button:hover {
+    background-color: #a48484;
+}
+
